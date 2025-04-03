@@ -1,5 +1,5 @@
 CONTROLE DE VERSÕES
-DESAFIO 01:
+# DESAFIO 01:
 •	Com suas palavras defina o que é um sistema de controle de versões (VCS)?
 •	Cite 5 vantagens em utilizar um VCS
 •	Cite 3 exemplos de VCS
@@ -25,3 +25,62 @@ Git: Mais popular, flexível e poderoso (mas complexo).
 Subversion (SVN) SVN: Centralizado, bom para controle rígido de versões.
 
 Mercurial (Hg) Mercurial: Simplicidade e eficiência, porém menos difundido que Git.
+
+
+# Desafio 02:
+
+Crie uma nova branch em seu repositório local com o nome "desafio02",
+
+responda as perguntas no documento README.md:
+
+
+Com suas palavras defina o que é programação orientada a objetos (POO) e cite seus pilares? (mínimo 10 linhas);
+
+A Programação Orientada a Objetos (POO) é um paradigma de programação que organiza o código em estruturas chamadas de objetos, que representam entidades do mundo real ou conceitos abstratos. Esses objetos possuem atributos (características) e métodos (ações/comportamentos). A POO visa tornar o código mais modular, reutilizável e de fácil manutenção, aproximando a modelagem de software de como pensamos no mundo real.
+
+
+Seus quatro pilares são:
+
+•	Abstração: Simplificar complexidades, focando no essencial.
+•	Encapsulamento: Proteger dados e expor apenas o necessário.
+•	Herança: Reutilizar e estender características de classes existentes.
+•	Polimorfismo: Permitir que um mesmo método se comporte de formas diferentes.
+
+Exemplifique e explique um cenário de abstração;
+
+Exemplo de Abstração
+
+Cenário: Um sistema de reserva de hotéis.
+Em vez de modelar todos os detalhes de um hotel (como tubulações elétricas ou materiais da construção), a abstração foca no que é relevante para o sistema:
+•	Atributos: Nome, localização, número de quartos, preço.
+•	Métodos: reservarQuarto(), verificarDisponibilidade().
+Aqui, ignoramos detalhes irrelevantes (como a cor das paredes) e destacamos apenas o necessário para o contexto.
+
+Exemplifique e explique um cenário de encapsulamento;
+
+Cenário: Uma classe ContaBancaria.
+
+Os atributos como saldo e senha são privados (não acessíveis diretamente). Para interagir com eles, usamos métodos controlados:
+
+
+Exemplifique e explique um cenário de herança;
+
+Cenário: Sistema de veículos.
+
+Uma classe Veiculo (superclasse) define atributos/métodos genéricos (marca, acelerar()), enquanto subclasses como Carro e Moto herdam e especializam esses comportamentos:
+Exemplifique e explique um cenário de polimorfismo;
+ Exemplo de Polimorfismo
+Cenário: Sistema de formas geométricas.
+Diferentes classes (Circulo, Quadrado) implementam um método calcularArea() de formas distintas, mas com a mesma assinatura:
+
+Cite 5 vantagens da POO.
+
+Vantagens da POO
+
+1.	Reutilização de código: Herança e composição reduzem duplicação.
+2.	Manutenibilidade: Código organizado em objetos facilita ajustes.
+3.	Modularidade: Componentes isolados (classes) são mais testáveis.
+4.	Segurança: Encapsulamento protege dados inconsistentes.
+5.	Escalabilidade: Modelagem próxima do mundo real simplifica expansão.
+
+
